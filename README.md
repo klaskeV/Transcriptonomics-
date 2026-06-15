@@ -2,12 +2,12 @@
 Reuma casus Transcriptonomics
 
 ## Inhoud
--`Bronnen/`- gebruikte bronnen. 
--`Data/`- gebruikte data voor de analyses. 
--`Scripts/`- scripts voor verschillende analyses 
--`Resultaten/`- de visualisaties van significante resultaten. 
--`README.md/`- het document waarin de tekst staat gegenereerd. 
--`data_stewardship/`- 
+-`Bronnen`- gebruikte bronnen. 
+-`Data`- gebruikte data voor de analyses. 
+-`Scripts`- scripts voor verschillende analyses 
+-`Resultaten`- de visualisaties van significante resultaten. 
+-`README.md`- het document waarin de tekst staat gegenereerd. 
+-`data_stewardship`- 
 
 ## Inleiding
 

@@ -3,6 +3,11 @@ Reuma casus Transcriptonomics
 
 ## Inhoud
 -`Bronnen`
+-`Data`
+-`Scripts`
+-`Resultaten
+-`README.md`
+-`data_stewardship`
 
 
 

@@ -5,7 +5,7 @@ Reuma casus Transcriptonomics
 -`Bronnen`
 -`Data`
 -`Scripts`
--`Resultaten
+-`Resultaten`
 -`README.md`
 -`data_stewardship`
 

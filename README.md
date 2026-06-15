@@ -2,6 +2,8 @@
 Reuma casus Transcriptonomics
 
 ## Inhoud
+- `Assests`- Afbeeldingen ter ondersteuning van de resultaten en conclusie
+  uit wetenschappelijke bronnen. 
 - `Bronnen`- gebruikte bronnen. 
 - `Data`- gebruikte data voor de analyses. 
 - `Scripts`- scripts voor verschillende analyses 

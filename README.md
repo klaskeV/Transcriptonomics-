@@ -36,6 +36,8 @@ Mappen met Rsubread package in R, count matrix maken, verschillen in genexpressi
 
 
 ## Resultaten
+introductie voor resultaten schrijven: 
+
 De [vulcanoplot](Resultaten/VulcanoplotRA.png) liet zien dat er veel genen waren waarvan de expressie het meest verschillend was tussen reumapatiënten en gezonde controles (rode punten). Zowel aan de linger als rechterkant bevinden zich significante genen, wat betekent dat sommige genen verhoogd en andere verlaagd tot expressie komen bij RA-patienten.
 
 De [Gene Ontology (GO)- analyse](Resultaten/GO-analyseplot.png) liet zien dat de differentieel geëxpresseerde genen voornamelijk betrokken waren bij imuungerelateerde processen. De meest significante GO-termen waren onder andere immune system process, immune response, lymphocyte mediated immunity en adaptive immune respons. Deze resultaten lieten zien dat veranderingen in de expressie van genen tussen reumapatienten en gezonde controles vooral te maken hadden met activatie van het immuunsysteem. 
@@ -45,6 +47,8 @@ DE KEGG-analyse van de cytokine-cytokine receptor interactie pahtway [(hsa04060)
 ## Conclusie
 Het doel van het onderzoek was om met behulp van genexpressieanalyse, GO-analyse en KEGG-pathwayanalyse inzicht te krijgen in welke biologische processen en signaalroutes een grote rol spelen bij reumatoïde artritis (RA) in vergelijking met gezonde controles.
 De GO-analyse liet zien dat de genen waarvan de expressie het meest verschillend was tussen reumapatiënten en gezonde controles voornamelijk betrokken zijn bij immuun- en ontstekingsgerelateerde processen. Vooral de GO-termen immune system process, immune response en adaptive immune response waren sterk significant. De KEGG-analyse bevestigde deze bevindingen en liet zien dat meerdere cytokinen en chemokinen verhoogd tot expressie kwamen. Met name de chemokinen CXCL1, CXCL2, CXCL5, CXCL6, CXCL8, CXCL9 en CXCL13 waren sterk opgereguleerd.Deze moleculen spelen een belangrijke rol bij het aantrekken van immuuncellen en het in stand houden van chronische ontsteking.  [IL6](Assets/10.1177_1759720X10378372-fig1.jpg) 
+
+Op basis van de GO-analyse is in de KEGG analyse dieper ingegaan op de immuun- en ontstekingsgerelateerde processen. Uit de KEGG analyse blijkt dat in de hsa04060 pathway de expressie van cytokinen zowel verhoogd als verlaagd was in vergelijking met gezonde controles. Dit geeft aan dat cytokinen met name IL-6 een sleutelrol speelt in RA. 
 
 
 

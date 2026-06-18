@@ -2,7 +2,7 @@
 Reuma casus Transcriptonomics
 
 ## Inhoud
-- `Assests`- Afbeeldingen ter ondersteuning van de resultaten en conclusie
+- `Assests`- Afbeeldingen ter ondersteuning van de resultaten
   uit wetenschappelijke bronnen. 
 - `Bronnen`- gebruikte bronnen. 
 - `Data`- gebruikte data voor de analyses. 
@@ -17,11 +17,6 @@ Reumatische arthritis (RA) is een autoimmuun ziekte waarvan het immuunsysteem, h
 RA komt wereldwijd voor bij ongeveer 1 op de 200 volwassenen en treft vrouwen 2 tot 3 keer vaker dan mannen. De ziekte kan op elke leeftijd ontstaan, maar komt het vaaktst voor tussen de 50 en 59 jaar (Smith & Berman, 2022).
 
 Door een verlies van immuuntolerantie ontstaan auto-antistoffen, zoals ACPA en reumafactor (RF), die een ontstekingsreactie op gang brengen (Mauri & Ehrenstein, 2007). Hierbij worden T-cellen, B-cellen en macrofagen geactiveerd(Tran et al., 2005), die ontstekingsstoffen (cytokinen) zoals TNF-α, IL-6 en IL-1 produceren (McInnes & Schett, 2007). Deze chronische ontsteking van het synovium (de gewrichtsbekleding) leidt uiteindelijk tot beschadiging van kraakbeen en bot, wat pijn, stijfheid en functieverlies van de gewrichten veroorzaakt (Amaya-Amaya et al., 2013). 
-
-Het doel is om in kaart te brengen welke biologische processen een grote rol spelen in RA in vergelijking tot gezonde controles. Enkele deelvragen hierbij zijn:
-Wat zijn de belangrijkste genen in de pathways?
-Wat zijn de functies van genen?
-Welke rol speelt het belangrijkste gen van de pathway in RA?
 
 Het doel van dit onderzoek is om met behulp van genexpressieanalyse, GO-analyse en KEGG-pathwayanalyse inzicht te krijgen in welke biologische processen en signaalroutes een grote rol spelen bij reumatoïde artritis (RA) in vergelijking met gezonde controles.
 Welke genen komen significant verschillend tot expressie tussen reumapatiënten en gezonde controles?
@@ -42,7 +37,7 @@ De [vulcanoplot](Resultaten/VulcanoplotRA.png) liet zien dat er veel genen waren
 
 De [Gene Ontology (GO)- analyse](Resultaten/GO-analyseplot.png) liet zien dat de differentieel geëxpresseerde genen voornamelijk betrokken waren bij imuungerelateerde processen. De meest significante GO-termen waren onder andere immune system process, immune response, lymphocyte mediated immunity en adaptive immune respons. Deze resultaten lieten zien dat veranderingen in de expressie van genen tussen reumapatienten en gezonde controles vooral te maken hadden met activatie van het immuunsysteem. 
 
-DE KEGG-analyse van de cytokine-cytokine receptor interactie pahtway [(hsa04060)](Resultaten/hsa04060.pathview.2png.png) liet zien dat er meerdere types cytokinen zowel sterk verlaagd als verhoogd tot expressie kwmamen, met name vele type chemokines waaronder CXCL1, CXCL5, CXCL6, CXCL8 en CXCL13 waren sterk verhoogd tot expressie gekomen. Daarnaast werden verhoogde expressieniveaus waargenomen voor verschillende cytokinen, waaronder [IL6](Assets/10.1177_1759720X10378372-fig1.jpg), IL1A en IL1B. Bij slechte weergave is hier de [pathway](Resultaten/hsa04060.pathview.png) beter zichtbaar zonder bijschrift. De functies van de cytokines in RA staan beschreven in deze tabel. 
+DE KEGG-analyse van de cytokine-cytokine receptor interactie pahtway [(hsa04060)](Resultaten/hsa04060.pathview.2png.png) liet zien dat er meerdere types cytokinen zowel sterk verlaagd als verhoogd tot expressie kwmamen, met name vele type chemokines waaronder CXCL1, CXCL5, CXCL6, CXCL8 en CXCL13 waren sterk verhoogd tot expressie gekomen. Daarnaast werden verhoogde expressieniveaus waargenomen voor verschillende cytokinen, waaronder [IL6](Assets/IL-6.png), IL1A en IL1B. Bij slechte weergave is hier de [pathway](Resultaten/hsa04060.pathview.png) beter zichtbaar zonder bijschrift. De functies van de cytokines in RA staan beschreven in deze tabel. 
 
 ## Conclusie
 

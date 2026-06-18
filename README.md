@@ -27,7 +27,8 @@ Welke rol spelen de meest opvallende genen binnen dit pathway bij reumatoïde ar
 ## Methode
 Voor het onderzoek zijn 4 samples van personen zonder RA en 4 personen met RA verkregen via synoviumbiopt. De personen met RA zijn positief getest op ACPA, personen zonder RA negatief. ACPA, meet auto-antistoffen tegen CCP (cyclische gecitrullineerde peptiden) eiwit. Met behulp van R studio worden, vanuit ruwe data, meerdere analyses uitgevoerd voor de vergelijking van personen met en zonder RA, in de vulcanoplot wordt gevisualiseerd welke genen significant zijn voor RA personen in vergelijking tot gezonde controles. Ook wordt er bepaalt welke pathways significant zijn met behulp van de GO- en de KEGG-analyse. 
 
-Mappen met Rsubread package in R, count matrix maken, verschillen in genexpressie bepalen met DEseq2 package in R, Volcano plot visualiseren in R, GO-analyse uitvoeren en bepalen significantste GO-termen in R en KEGG-analyse uitvoeren in R, Github pagina maken en indelen, rapporteren over resultaten en conclusie. (dit komt in flowschema). 
+
+RNA-seq data afkomstig van vier gezonde controles en vier patiënten met established reumatoïde artritis werden geanalyseerd in R. Sequencing reads werden gemapt op het humane referentiegenoom (GRCh38) met behulp van het Rsubread-pakket versie 2.24.0. Vervolgens werd het aantal reads per gen bepaald met featureCounts, waarna een count matrix werd opgesteld. Differentiële genexpressie tussen de RA- en controlegroep werd bepaald met DESeq2 package versie 1.50.2. Significante verschillen in genexpressie werden gevisualiseerd met een volcano plot (EnhancedVolcano) met package versie 1.28.2. Vervolgens werd een Gene Ontology-analyse uitgevoerd met goseq package versie 1.62.0 om betrokken biologische processen te identificeren. Ten slotte werd een KEGG pathway-analyse uitgevoerd met behulp van KEGGREST package versie 1.50.0 en pathview versie 1.50.0 om relevante signaalroutes in kaart te brengen.
 
 
 ## Resultaten

@@ -18,11 +18,6 @@ RA komt wereldwijd voor bij ongeveer 1 op de 200 volwassenen en treft vrouwen 2 
 
 Door een verlies van immuuntolerantie ontstaan auto-antistoffen, zoals ACPA en reumafactor (RF), die een ontstekingsreactie op gang brengen (Mauri & Ehrenstein, 2007). Hierbij worden T-cellen, B-cellen en macrofagen geactiveerd(Tran et al., 2005), die ontstekingsstoffen (cytokinen) zoals TNF-α, IL-6 en IL-1 produceren (McInnes & Schett, 2007). Deze chronische ontsteking van het synovium (de gewrichtsbekleding) leidt uiteindelijk tot beschadiging van kraakbeen en bot, wat pijn, stijfheid en functieverlies van de gewrichten veroorzaakt (Amaya-Amaya et al., 2013). 
 
-Het doel is om in kaart te brengen welke biologische processen een grote rol spelen in RA in vergelijking tot gezonde controles. Enkele deelvragen hierbij zijn:
-Wat zijn de belangrijkste genen in de pathways?
-Wat zijn de functies van genen?
-Welke rol speelt het belangrijkste gen van de pathway in RA?
-
 Het doel van dit onderzoek is om met behulp van genexpressieanalyse, GO-analyse en KEGG-pathwayanalyse inzicht te krijgen in welke biologische processen en signaalroutes een grote rol spelen bij reumatoïde artritis (RA) in vergelijking met gezonde controles.
 Welke genen komen significant verschillend tot expressie tussen reumapatiënten en gezonde controles?
 Welke biologische processen en immuunfuncties zijn het meest verrijkt?

@@ -1,26 +1,29 @@
-# Transcriptonomics-
-Reuma casus Transcriptonomics
+# Ontregeling van cytokine- en chemokinesignalering draagt bij aan ontstekingsreacties die kenmerkend zijn voor reumatoïde artritis
+
 
 ## Inhoud
 - `Assests`- Afbeeldingen ter ondersteuning van de resultaten
   uit wetenschappelijke bronnen. 
 - `Bronnen`- gebruikte bronnen. 
-- `Data`- gebruikte data voor de analyses. 
+- `Data`- gebruikte data voor de analyses.
+- `Data_Stewardship`- hier wordt uitgelegd hoe de data en GitHub pagina beheerd is.
+- `Methode`- Flowschema met meer gedetailleerde uitwerking van de methode.  
+- `Resultaten`- de visualisaties van significante resultaten.
 - `Scripts`- scripts voor verschillende analyses 
-- `Resultaten`- de visualisaties van significante resultaten. 
 - `README.md`- het document waarin de tekst staat gegenereerd. 
-- `data_stewardship`- 
+
 
 ## Inleiding
 Reumatische arthritis (RA) is een autoimmuun ziekte waarvan het immuunsysteem, het synovium of het slijmvlies van het gewrichtskapsel in het hele lichaam aanvalt. Het veroorzaakt ontsteking van de gewrichten en kan in ernstige gevallen leiden tot blijvende gewrichtsschade en invaliditeit. Daarnaast kan RA ook andere organen aantasten. 
 
 RA komt wereldwijd voor bij ongeveer 1 op de 200 volwassenen en treft vrouwen 2 tot 3 keer vaker dan mannen. De ziekte kan op elke leeftijd ontstaan, maar komt het vaaktst voor tussen de 50 en 59 jaar (Smith & Berman, 2022).
 
-Door een verlies van immuuntolerantie ontstaan auto-antistoffen, zoals ACPA en reumafactor (RF), die een ontstekingsreactie op gang brengen (Mauri & Ehrenstein, 2007). Hierbij worden T-cellen, B-cellen en macrofagen geactiveerd(Tran et al., 2005), die ontstekingsstoffen (cytokinen) zoals TNF-α, IL-6 en IL-1 produceren (McInnes & Schett, 2007). Deze chronische ontsteking van het synovium (de gewrichtsbekleding) leidt uiteindelijk tot beschadiging van kraakbeen en bot, wat pijn, stijfheid en functieverlies van de gewrichten veroorzaakt (Amaya-Amaya et al., 2013). 
+Door een verlies van immuuntolerantie ontstaan auto-antistoffen, zoals ACPA en reumafactor (RF), die een ontstekingsreactie op gang brengen (Mauri & Ehrenstein, 2007). Hierbij worden T-cellen, B-cellen en macrofagen geactiveerd (Tran et al., 2005), die ontstekingsstoffen (cytokinen) zoals TNF-α, IL-6 en IL-1 produceren (McInnes & Schett, 2007). Deze chronische ontsteking van het synovium (de gewrichtsbekleding) leidt uiteindelijk tot beschadiging van kraakbeen en bot, wat pijn, stijfheid en functieverlies van de gewrichten veroorzaakt (Amaya-Amaya et al., 2013). 
 
 Het doel van dit onderzoek is om met behulp van genexpressieanalyse, GO-analyse en KEGG-pathwayanalyse inzicht te krijgen in welke biologische processen en signaalroutes een grote rol spelen bij reumatoïde artritis (RA) in vergelijking met gezonde controles.
 Welke genen komen significant verschillend tot expressie tussen reumapatiënten en gezonde controles?
-Welke biologische processen, moleculaire functies en cellulaire componenten komen het meest voor onder de verschillende genen die tot expressie komen?
+Welke biologische processen, moleculaire functies en cellulaire componenten zijn significant en komen het meest voor in de dataset 
+onder de genen die een veranderende expressie laten zien in RA in vergelijking tot gezonde controles?
 Welke KEGG-pathway is betrokken bij de gevonden verschillen in genexpressie?
 Welke rol spelen de meest opvallende genen binnen dit pathway bij reumatoïde artritis?
 
@@ -33,7 +36,7 @@ RNA-seq data afkomstig van vier gezonde controles en vier patiënten met establi
 
 
 ## Resultaten
-Om de genen die differentieel tot expressie kwamen te visualiseren is gebruik gemaakt van een vulcanoplot. Daarna is de GO-analyse gedaan om in kaart te brengen welke biologische processen, moleculaire functies of cellulaire componenten betrokken zijn bij de genen die in de gebruikte dataset een veranderde expressie lieten zien. Ook was er een KEGG-analyse gedaan van een pahtway die betrekking had tot de uitkomst van de GO-analyse. 
+Om de genen die differentieel tot expressie kwamen te visualiseren was gebruik gemaakt van een vulcanoplot. Daarna was de GO-analyse gedaan om in kaart te brengen welke biologische processen, moleculaire functies of cellulaire componenten betrokken waren bij de genen die in de gebruikte dataset een veranderde expressie lieten zien. Ook was er een KEGG-analyse gedaan van pathway hsa04060 die betrekking had tot de uitkomst van de GO-analyse. 
 
 De [vulcanoplot](Resultaten/VulcanoplotRA.png) liet zien dat er veel genen waren waarvan de expressie het meest verschillend was tussen reumapatiënten en gezonde controles (rode punten). Zowel aan de linger als rechterkant bevinden zich significante genen, wat betekent dat sommige genen verhoogd en andere verlaagd tot expressie kwamen bij RA-patienten.
 
@@ -50,7 +53,9 @@ DE KEGG-analyse van de cytokine-cytokine receptor interactie pahtway [(hsa04060)
 Het doel van het onderzoek was om met behulp van genexpressieanalyse, GO-analyse en KEGG-pathwayanalyse inzicht te krijgen in welke biologische processen en signaalroutes een grote rol spelen bij reumatoïde artritis (RA) in vergelijking met gezonde controles. De genexpressieanalyse liet zien dat meerdere genen significant verschillend tot expressie kwamen tussen reumapatiënten en gezonde controles. Op basis van de GO-analyse en KEGG-analyse kan worden geconcludeerd dat immuun- en ontstekingsgerelateerde processen een belangrijke rol spelen bij reumatoïde artritis. Deze bevindingen werden ondersteund door de KEGG-analyse van de pathway Cytokine-cytokine receptor interaction (hsa04060). Binnen deze pathway werden meerdere cytokinen en chemokinen, waaronder IL6, IL1B, CXCL8 en CXCL13 verhoog tot expressie gebracht. Dit suggereert dat ontregeling van cytokine- en chemokinesignalering bijdraagt aan de ontstekingsreacties die kenmerkend zijn voor reumatoïde artritis.
 
 
-
 ## Data Stewardship
 
-In [dit document](Data Stewardship) wordt uitgelegd hoe GitHub pagina beheerd is. 
+In [dit document](Data_Stewardship/DataStewardship_GitHub.pdf) wordt uitgelegd hoe de data en GitHub pagina beheerd is. 
+
+## AI-disclaimer 
+In dit document staat hoe AI gebruikt is. 

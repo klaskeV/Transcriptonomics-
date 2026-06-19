@@ -23,7 +23,7 @@ Door een verlies van immuuntolerantie ontstaan auto-antistoffen, zoals ACPA en r
 Het doel van dit onderzoek is om met behulp van genexpressieanalyse, GO-analyse en KEGG-pathwayanalyse inzicht te krijgen in welke biologische processen en signaalroutes een grote rol spelen bij reumatoïde artritis (RA) in vergelijking met gezonde controles.
 Welke genen komen significant verschillend tot expressie tussen reumapatiënten en gezonde controles?
 Welke biologische processen, moleculaire functies en cellulaire componenten zijn significant en komen het meest voor in de dataset 
-onder de genen die een veranderende expressie laten zien in vergelijking tot gezonde controles?
+onder de genen die een veranderende expressie laten zien in RA in vergelijking tot gezonde controles?
 Welke KEGG-pathway is betrokken bij de gevonden verschillen in genexpressie?
 Welke rol spelen de meest opvallende genen binnen dit pathway bij reumatoïde artritis?
 
@@ -53,7 +53,9 @@ DE KEGG-analyse van de cytokine-cytokine receptor interactie pahtway [(hsa04060)
 Het doel van het onderzoek was om met behulp van genexpressieanalyse, GO-analyse en KEGG-pathwayanalyse inzicht te krijgen in welke biologische processen en signaalroutes een grote rol spelen bij reumatoïde artritis (RA) in vergelijking met gezonde controles. De genexpressieanalyse liet zien dat meerdere genen significant verschillend tot expressie kwamen tussen reumapatiënten en gezonde controles. Op basis van de GO-analyse en KEGG-analyse kan worden geconcludeerd dat immuun- en ontstekingsgerelateerde processen een belangrijke rol spelen bij reumatoïde artritis. Deze bevindingen werden ondersteund door de KEGG-analyse van de pathway Cytokine-cytokine receptor interaction (hsa04060). Binnen deze pathway werden meerdere cytokinen en chemokinen, waaronder IL6, IL1B, CXCL8 en CXCL13 verhoog tot expressie gebracht. Dit suggereert dat ontregeling van cytokine- en chemokinesignalering bijdraagt aan de ontstekingsreacties die kenmerkend zijn voor reumatoïde artritis.
 
 
-
 ## Data Stewardship
 
 In [dit document](Data_Stewardship/DataStewardship_GitHub.pdf) wordt uitgelegd hoe de data en GitHub pagina beheerd is. 
+
+## AI-disclaimer 
+In dit document staat hoe AI gebruikt is. 

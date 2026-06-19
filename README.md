@@ -3,7 +3,7 @@
 
 ## Inhoud
 - `AI-disclaimer`- Uitleg waarvoor AI gebruikt is. 
-- `Assests`- Afbeeldingen ter ondersteuning van de resultaten
+- `Assets`- Afbeeldingen ter ondersteuning van de resultaten
   uit wetenschappelijke bronnen. 
 - `Bronnen`- gebruikte bronnen. 
 - `Data`- gebruikte data voor de analyses.

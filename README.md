@@ -1,4 +1,4 @@
-# ontregeling van cytokine- en chemokinesignalering draagt bij aan ontstekingsreacties die kenmerkend zijn voor reumatoïde artritis-
+# ontregeling van cytokine- en chemokinesignalering draagt bij aan ontstekingsreacties die kenmerkend zijn voor reumatoïde artritis
 
 
 ## Inhoud

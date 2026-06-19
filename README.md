@@ -2,13 +2,13 @@
 
 
 ## Inhoud
-- `AI-disclaimer`- Uitleg waarvoor AI gebruikt is. 
-- `Assets`- Afbeeldingen ter ondersteuning van de resultaten
+- `AI-disclaimer`- uitleg waarvoor AI gebruikt is. 
+- `Assets`- afbeeldingen ter ondersteuning van de resultaten
   uit wetenschappelijke bronnen. 
 - `Bronnen`- gebruikte bronnen. 
 - `Data`- gebruikte data voor de analyses.
 - `Data_Stewardship`- hier wordt uitgelegd hoe de data en GitHub pagina beheerd is.
-- `Methode`- Flowschema met meer gedetailleerde uitwerking van de methode.  
+- `Methode`- flowschema met meer gedetailleerde uitwerking van de methode.  
 - `Resultaten`- de visualisaties van significante resultaten.
 - `Scripts`- scripts voor verschillende analyses 
 - `README.md`- het document waarin de tekst staat gegenereerd. 

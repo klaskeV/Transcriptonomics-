@@ -1,15 +1,17 @@
-# Transcriptonomics-
-Reuma casus Transcriptonomics
+# ontregeling van cytokine- en chemokinesignalering draagt bij aan ontstekingsreacties die kenmerkend zijn voor reumatoïde artritis-
+
 
 ## Inhoud
 - `Assests`- Afbeeldingen ter ondersteuning van de resultaten
   uit wetenschappelijke bronnen. 
 - `Bronnen`- gebruikte bronnen. 
-- `Data`- gebruikte data voor de analyses. 
+- `Data`- gebruikte data voor de analyses.
+- `Data_Stewardship`- hier wordt uitgelegd hoe de data en GitHub pagina beheerd is.
+- `Methode`- Flowschema met meer gedetailleerde uitwerking van de methode.  
+- `Resultaten`- de visualisaties van significante resultaten.
 - `Scripts`- scripts voor verschillende analyses 
-- `Resultaten`- de visualisaties van significante resultaten. 
 - `README.md`- het document waarin de tekst staat gegenereerd. 
-- `data_stewardship`- 
+
 
 ## Inleiding
 Reumatische arthritis (RA) is een autoimmuun ziekte waarvan het immuunsysteem, het synovium of het slijmvlies van het gewrichtskapsel in het hele lichaam aanvalt. Het veroorzaakt ontsteking van de gewrichten en kan in ernstige gevallen leiden tot blijvende gewrichtsschade en invaliditeit. Daarnaast kan RA ook andere organen aantasten. 
@@ -53,4 +55,4 @@ Het doel van het onderzoek was om met behulp van genexpressieanalyse, GO-analyse
 
 ## Data Stewardship
 
-In [dit document](Data Stewardship) wordt uitgelegd hoe GitHub pagina beheerd is. 
+In [dit document](Data_Stewardship/DataStewardship_GitHub.pdf) wordt uitgelegd hoe de data en GitHub pagina beheerd is. 

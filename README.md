@@ -53,4 +53,4 @@ Het doel van het onderzoek was om met behulp van genexpressieanalyse, GO-analyse
 
 ## Data Stewardship
 
-In dit document wordt uitgelegd hoe GitHub pagina beheerd is. 
+In [dit document](Data Stewardship) wordt uitgelegd hoe GitHub pagina beheerd is. 

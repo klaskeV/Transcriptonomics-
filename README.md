@@ -1,7 +1,8 @@
-# Ontregeling van cytokine- en chemokinesignalering draagt bij aan ontstekingsreacties die kenmerkend zijn voor reumatoïde artritis
+# Ontregeling van cytokine- en chemokinesignalering wordt geassocieerd met ontstekingsreacties die kenmerkend zijn voor reumatoïde artritis
 
 
 ## Inhoud
+- `AI-disclaimer`- Uitleg waarvoor AI gebruikt is. 
 - `Assests`- Afbeeldingen ter ondersteuning van de resultaten
   uit wetenschappelijke bronnen. 
 - `Bronnen`- gebruikte bronnen. 
@@ -58,4 +59,4 @@ Het doel van het onderzoek was om met behulp van genexpressieanalyse, GO-analyse
 In [dit document](Data_Stewardship/DataStewardship_GitHub.pdf) wordt uitgelegd hoe de data en GitHub pagina beheerd is. 
 
 ## AI-disclaimer 
-In dit document staat hoe AI gebruikt is. 
+In dit [document](AI-disclaimer/AI-dislaimer_GitHubRA.pdf) staat hoe AI gebruikt is. 

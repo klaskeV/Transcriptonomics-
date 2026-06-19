@@ -22,7 +22,8 @@ Door een verlies van immuuntolerantie ontstaan auto-antistoffen, zoals ACPA en r
 
 Het doel van dit onderzoek is om met behulp van genexpressieanalyse, GO-analyse en KEGG-pathwayanalyse inzicht te krijgen in welke biologische processen en signaalroutes een grote rol spelen bij reumatoïde artritis (RA) in vergelijking met gezonde controles.
 Welke genen komen significant verschillend tot expressie tussen reumapatiënten en gezonde controles?
-Welke biologische processen, moleculaire functies en cellulaire componenten komen het meest voor onder de verschillende genen die tot expressie komen?
+Welke biologische processen, moleculaire functies en cellulaire componenten zijn significant en komen het meest voor in de dataset 
+onder de genen die een veranderende expressie laten zien in vergelijking tot gezonde controles?
 Welke KEGG-pathway is betrokken bij de gevonden verschillen in genexpressie?
 Welke rol spelen de meest opvallende genen binnen dit pathway bij reumatoïde artritis?
 
@@ -35,7 +36,7 @@ RNA-seq data afkomstig van vier gezonde controles en vier patiënten met establi
 
 
 ## Resultaten
-Om de genen die differentieel tot expressie kwamen te visualiseren is gebruik gemaakt van een vulcanoplot. Daarna is de GO-analyse gedaan om in kaart te brengen welke biologische processen, moleculaire functies of cellulaire componenten betrokken zijn bij de genen die in de gebruikte dataset een veranderde expressie lieten zien. Ook was er een KEGG-analyse gedaan van een pahtway die betrekking had tot de uitkomst van de GO-analyse. 
+Om de genen die differentieel tot expressie kwamen te visualiseren was gebruik gemaakt van een vulcanoplot. Daarna was de GO-analyse gedaan om in kaart te brengen welke biologische processen, moleculaire functies of cellulaire componenten betrokken waren bij de genen die in de gebruikte dataset een veranderde expressie lieten zien. Ook was er een KEGG-analyse gedaan van pathway hsa04060 die betrekking had tot de uitkomst van de GO-analyse. 
 
 De [vulcanoplot](Resultaten/VulcanoplotRA.png) liet zien dat er veel genen waren waarvan de expressie het meest verschillend was tussen reumapatiënten en gezonde controles (rode punten). Zowel aan de linger als rechterkant bevinden zich significante genen, wat betekent dat sommige genen verhoogd en andere verlaagd tot expressie kwamen bij RA-patienten.
 

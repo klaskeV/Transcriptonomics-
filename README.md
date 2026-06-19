@@ -28,7 +28,7 @@ Welke rol spelen de meest opvallende genen binnen dit pathway bij reumatoïde ar
 RNA-seq data afkomstig van vier gezonde controles en vier patiënten met established reumatoïde artritis afkomstig uit (Platzer et al., 2019) werden geanalyseerd in R. Sequencing reads werden gemapt op het humane referentiegenoom (GRCh38) ((Accession GCF_000001405.40), gedownload uit de NCBI Genome Database)(Schneider et al., 2017) met behulp van het Rsubread-pakket versie 2.24.0 (Liao et al., 2019). Vervolgens werd het aantal reads per gen bepaald met featureCounts, waarna een count matrix werd opgesteld. Differentiële genexpressie tussen de RA- en controlegroep werd bepaald met DESeq2 package versie 1.50.2 (Love et al., 2014). Significante verschillen in genexpressie werden gevisualiseerd met een volcano plot (EnhancedVolcano) met package versie 1.28.2 (Blighe et al., 2026). Vervolgens werd een Gene Ontology-analyse uitgevoerd met goseq package versie 1.62.0 (Young et al., 2010) om betrokken biologische processen te identificeren. Ten slotte werd een KEGG pathway-analyse uitgevoerd met behulp van KEGGREST package versie 1.50.0 (Kanehisa & Goto, 2000), en pathview versie 1.50.0 (Luo & Brouwer, 2013) om relevante signaalroutes in kaart te brengen.
 
 <p align="center">
-  <img src="" alt="Wizarding Spell Metrics Logo" width="600"/>
+  <img src="Data" alt="Wizarding Spell Metrics Logo" width="600"/>
 </p>
 
 

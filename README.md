@@ -42,7 +42,7 @@ De [Gene Ontology (GO)- analyse](Resultaten/GO-analyseplot.png) liet zien dat de
 DE KEGG-analyse van de cytokine-cytokine receptor interactie pahtway [(hsa04060)](Resultaten/hsa04060.pathview.2png.png) liet zien dat er meerdere types cytokinen zowel sterk verlaagd als verhoogd tot expressie kwmamen, met name vele type chemokines waaronder CXCL1, CXCL5, CXCL6, CXCL8 en CXCL13 waren sterk verhoogd tot expressie gekomen. Daarnaast werden verhoogde expressieniveaus waargenomen voor verschillende cytokinen, waaronder IL6, IL1A en IL1B. Bij slechte weergave is hier de [pathway](Resultaten/hsa04060.pathview.png) beter zichtbaar zonder bijschrift. De functies van de cytokines in RA staan beschreven in deze tabel. 
 
 <p align="center">
-  <img src="Data/SamplesRA.png" alt="Samples RA" width="600"/>
+  <img src="Assets/IL-6.png" alt="IL-6" width="600"/>
 </p>
 
 ## Conclusie

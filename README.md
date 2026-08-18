@@ -15,18 +15,22 @@
 
 
 ## Inleiding
-Reumatische arthritis (RA) is een autoimmuun ziekte waarvan het immuunsysteem, het synovium of het slijmvlies van het gewrichtskapsel in het hele lichaam aanvalt. Het veroorzaakt ontsteking van de gewrichten en kan in ernstige gevallen leiden tot blijvende gewrichtsschade en invaliditeit. Daarnaast kan RA ook andere organen aantasten. 
-
-RA komt wereldwijd voor bij ongeveer 1 op de 200 volwassenen en treft vrouwen 2 tot 3 keer vaker dan mannen. De ziekte kan op elke leeftijd ontstaan, maar komt het vaaktst voor tussen de 50 en 59 jaar (Smith & Berman, 2022).
+Reumatische arthritis (RA) is een auto-immuunziekte waarvan het immuunsysteem, het synovium of het slijmvlies van het gewrichtskapsel in het hele lichaam aanvalt. Het veroorzaakt ontsteking van de gewrichten en kan in ernstige gevallen leiden tot blijvende gewrichtsschade en invaliditeit. Daarnaast kan RA ook andere organen aantasten. RA komt wereldwijd voor bij ongeveer 1 op de 200 volwassenen en treft vrouwen 2 tot 3 keer vaker dan mannen. De ziekte kan op elke leeftijd ontstaan, maar komt het vaakst voor tussen de 50 en 59 jaar (Smith & Berman, 2022).
 
 Door een verlies van immuuntolerantie ontstaan auto-antistoffen, zoals ACPA en reumafactor (RF), die een ontstekingsreactie op gang brengen (Mauri & Ehrenstein, 2007). Hierbij worden T-cellen, B-cellen en macrofagen geactiveerd (Tran et al., 2005), die ontstekingsstoffen (cytokinen) zoals TNF-α, IL-6 en IL-1 produceren (McInnes & Schett, 2007). Deze chronische ontsteking van het synovium (de gewrichtsbekleding) leidt uiteindelijk tot beschadiging van kraakbeen en bot, wat pijn, stijfheid en functieverlies van de gewrichten veroorzaakt (Amaya-Amaya et al., 2013). 
+
+Met transcriptomics kan de expressie van duizenden genen tegelijkertijd worden onderzocht. Door genexpressie tussen reumapatiënten en gezonde controles te vergelijken, kunnen genen worden geïdentificeerd die verschillend tot expressie komen. Met een Gene Ontology (GO)-analyse kan vervolgens worden onderzocht bij welke biologische processen, moleculaire functies en cellulaire componenten deze genen betrokken zijn. Een KEGG-pathwayanalyse kan daarnaast inzicht geven in de signaalroutes waarin deze genen voorkomen.
+
+Het doel van dit onderzoek is om met behulp van genexpressieanalyse, GO-analyse en KEGG-pathwayanalyse te bepalen welke genen, biologische processen en signaalroutes verschillen tussen reumapatiënten en gezonde controles. Vervolgens wordt onderzocht welke genen binnen een relevante pathway het meest opvallen en welke rol deze mogelijk spelen bij RA.
+
 
 Het doel van dit onderzoek is om met behulp van genexpressieanalyse, GO-analyse en KEGG-pathwayanalyse inzicht te krijgen in welke biologische processen en signaalroutes een grote rol spelen bij reumatoïde artritis (RA) in vergelijking met gezonde controles.
 Welke genen komen significant verschillend tot expressie tussen reumapatiënten en gezonde controles?
 Welke biologische processen, moleculaire functies en cellulaire componenten zijn significant en komen het meest voor in de dataset 
 onder de genen die een veranderende expressie laten zien in RA in vergelijking tot gezonde controles?
 Welke KEGG-pathway is betrokken bij de gevonden verschillen in genexpressie?
-Welke rol spelen de meest opvallende genen binnen dit pathway bij reumatoïde artritis?
+Welke rol spelen de meest opvallende genen binnen dit pathway bij reumatoïde artritis? 
+
 
 ## Methode
 RNA-seq data afkomstig van vier gezonde controles en vier patiënten met established reumatoïde artritis afkomstig uit (Platzer et al., 2019) werden geanalyseerd in R. Sequencing reads werden gemapt op het humane referentiegenoom (GRCh38) ((Accession GCF_000001405.40), gedownload uit de NCBI Genome Database)(Schneider et al., 2017) met behulp van het Rsubread-pakket versie 2.24.0 (Liao et al., 2019). Vervolgens werd het aantal reads per gen bepaald met featureCounts, waarna een count matrix werd opgesteld. Differentiële genexpressie tussen de RA- en controlegroep werd bepaald met DESeq2 package versie 1.50.2 (Love et al., 2014). Significante verschillen in genexpressie werden gevisualiseerd met een volcano plot (EnhancedVolcano) met package versie 1.28.2 (Blighe et al., 2026). Vervolgens werd een Gene Ontology-analyse uitgevoerd met goseq package versie 1.62.0 (Young et al., 2010) om betrokken biologische processen te identificeren. Ten slotte werd een KEGG pathway-analyse uitgevoerd met behulp van KEGGREST package versie 1.50.0 (Kanehisa & Goto, 2000), en pathview versie 1.50.0 (Luo & Brouwer, 2013) om relevante signaalroutes in kaart te brengen in pathway hsa04060. De methode is [hier](Methode/FlowshemaRA.png) in meer detail uitgewerkt in een overzichtelijke flowschema.

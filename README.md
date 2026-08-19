@@ -23,6 +23,7 @@ Met transcriptomics kan de expressie van duizenden genen tegelijkertijd worden o
 
 Het doel van dit onderzoek is om met behulp van genexpressieanalyse, GO-analyse en KEGG-pathwayanalyse te bepalen welke genen, biologische processen en signaalroutes verschillen tussen reumapatiënten en gezonde controles. Vervolgens wordt onderzocht welke genen binnen een relevante pathway het meest opvallen en welke rol deze mogelijk spelen bij RA.
 
+Het doel van dit onderzoek is daarom om met behulp van genexpressieanalyse, GO-analyse en KEGG-pathwayanalyse inzicht te krijgen in de biologische processen en signaalroutes die verschillen tussen reumapatiënten en gezonde controles. Hierbij wordt onderzocht welke genen significant verschillend tot expressie komen, welke biologische processen en immuunfuncties hierbij betrokken zijn en welke KEGG-pathway het meest relevant is. Vervolgens wordt gekeken naar de meest opvallende genen binnen deze pathway en welke rol deze genen mogelijk spelen bij reumatoïde artritis.
 
 Het doel van dit onderzoek is om met behulp van genexpressieanalyse, GO-analyse en KEGG-pathwayanalyse inzicht te krijgen in welke biologische processen en signaalroutes een grote rol spelen bij reumatoïde artritis (RA) in vergelijking met gezonde controles.
 Welke genen komen significant verschillend tot expressie tussen reumapatiënten en gezonde controles?

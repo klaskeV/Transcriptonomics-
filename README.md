@@ -21,14 +21,8 @@ Door een verlies van immuuntolerantie ontstaan auto-antistoffen, zoals ACPA en r
 
 Transcriptomics maakt het mogelijk om genexpressiepatronen op grote schaal te onderzoeken. RNA-seq is hierbij een belangrijke techniek en is eerder gebruikt om verschillen in genexpressie en biologische processen tussen RA-patiënten en controlegroepen te onderzoeken (Gong et al., 2024). Met een Gene Ontology (GO)-analyse kan vervolgens worden onderzocht bij welke biologische processen, moleculaire functies en cellulaire componenten deze genen betrokken zijn. Een KEGG-pathwayanalyse kan daarnaast inzicht geven in de signaalroutes waarin deze genen voorkomen.
 
-Het doel van dit onderzoek is daarom om met behulp van genexpressieanalyse, GO-analyse en KEGG-pathwayanalyse inzicht te krijgen in de biologische processen en signaalroutes die verschillen tussen reumapatiënten en gezonde controles. Hierbij wordt onderzocht welke genen significant verschillend tot expressie komen, welke biologische processen en immuunfuncties hierbij betrokken zijn en welke KEGG-pathway het meest relevant is. Vervolgens wordt gekeken naar de meest opvallende genen binnen deze pathway en welke rol deze genen mogelijk spelen bij reumatoïde artritis.
+Het doel van dit onderzoek is daarom om met behulp van genexpressieanalyse, GO-analyse en KEGG-pathwayanalyse inzicht te krijgen in de biologische processen en signaalroutes die verschillen tussen reumapatiënten en gezonde controles. Hierbij wordt onderzocht welke genen significant verschillend tot expressie komen, welke biologische processen, moleculaire functies en cellulaire componenten relatief vaak voorkomen onder de verschillend tot expressie komende genen en welke KEGG-pathway het meest relevant is. Vervolgens wordt gekeken naar de meest opvallende genen binnen deze pathway en welke rol deze genen mogelijk spelen bij reumatoïde artritis.
 
-Het doel van dit onderzoek is om met behulp van genexpressieanalyse, GO-analyse en KEGG-pathwayanalyse inzicht te krijgen in welke biologische processen en signaalroutes een grote rol spelen bij reumatoïde artritis (RA) in vergelijking met gezonde controles.
-Welke genen komen significant verschillend tot expressie tussen reumapatiënten en gezonde controles?
-Welke biologische processen, moleculaire functies en cellulaire componenten zijn significant en komen het meest voor in de dataset 
-onder de genen die een veranderende expressie laten zien in RA in vergelijking tot gezonde controles?
-Welke KEGG-pathway is betrokken bij de gevonden verschillen in genexpressie?
-Welke rol spelen de meest opvallende genen binnen dit pathway bij reumatoïde artritis? 
 
 
 ## Methode
@@ -54,7 +48,7 @@ DE KEGG-analyse van de cytokine-cytokine receptor interactie pahtway [(hsa04060)
 
 ## Conclusie
 
-Het doel van het onderzoek was om met behulp van genexpressieanalyse, GO-analyse en KEGG-pathwayanalyse inzicht te krijgen in welke biologische processen en signaalroutes een grote rol spelen bij reumatoïde artritis (RA) in vergelijking met gezonde controles. De genexpressieanalyse liet zien dat meerdere genen significant verschillend tot expressie kwamen tussen reumapatiënten en gezonde controles. Op basis van de GO-analyse en KEGG-analyse kan worden geconcludeerd dat immuun- en ontstekingsgerelateerde processen een belangrijke rol spelen bij reumatoïde artritis. Deze bevindingen werden ondersteund door de KEGG-analyse van de pathway Cytokine-cytokine receptor interaction (hsa04060). Binnen deze pathway werden meerdere cytokinen en chemokinen, waaronder IL6, IL1B, CXCL8 en CXCL13 verhoogd tot expressie gebracht. Dit suggereert dat ontregeling van cytokine- en chemokinesignalering bijdraagt aan de ontstekingsreacties die kenmerkend zijn voor reumatoïde artritis.
+Het doel van het onderzoek was om met behulp van genexpressieanalyse, GO-analyse en KEGG-pathwayanalyse inzicht te krijgen in welke biologische processen en signaalroutes een grote rol spelen bij reumatoïde artritis (RA) in vergelijking met gezonde controles. De genexpressieanalyse liet zien dat meerdere genen significant verschillend tot expressie kwamen tussen reumapatiënten en gezonde controles. Op basis van de GO-analyse en KEGG-analyse kan worden geconcludeerd dat immuun- en ontstekingsgerelateerde processen een belangrijke rol spelen bij reumatoïde artritis. Deze bevindingen werden ondersteund door de KEGG-analyse van de pathway cytokine-cytokine receptor interaction (hsa04060). Binnen deze pathway werden meerdere cytokinen en chemokinen, waaronder IL6, IL1B, CXCL8 en CXCL13 verhoogd tot expressie gebracht. Dit suggereert dat ontregeling van cytokine- en chemokinesignalering bijdraagt aan de ontstekingsreacties die kenmerkend zijn voor reumatoïde artritis.
 
 
 ## Data Stewardship

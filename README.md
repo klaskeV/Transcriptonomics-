@@ -1,4 +1,4 @@
-# Transcriptomics laat zien dat ontregeling van cytokine- en chemokinesignalering geassocieerd is met ontstekingsreacties die kenmerkend zijn voor reumatoïde artritis
+# Ontregeling van cytokine- en chemokinesignalering wordt geassocieerd met ontstekingsreacties die kenmerkend zijn voor reumatoïde artritis
 
 
 ## Inhoud
